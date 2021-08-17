@@ -49,8 +49,8 @@ body {
 }
 
 .profileimg {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
@@ -58,7 +58,7 @@ body {
 }
 
 .educationyear {
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: right;
     color: aliceblue;
 }
@@ -182,7 +182,7 @@ hr {
     position: relative;
 }
 
-@media(max-width: 700px) {
+@media(max-width: 750px) {
     h4 {
         font-size:17px;
     }
@@ -191,9 +191,5 @@ hr {
     }
     .smalltext {
         font-size: 12px;
-    }
-    .profileimg {
-        width: 80px;
-        height:80px;
     }
 }
