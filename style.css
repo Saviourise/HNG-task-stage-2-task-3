@@ -192,4 +192,21 @@ hr {
     .smalltext {
         font-size: 12px;
     }
+progress {
+    background: #4d4343;
+    width: 50px;
+    height: 6px;
+    border-radius: 100px;
+    animation: progress 2s 1 ease-out;
+    -webkit-animation: progress 2s 1 ease-out;
+}
+
+@keyframes progress {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50px;
+    }
+}
 }
